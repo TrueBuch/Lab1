@@ -12,8 +12,8 @@
 
 **Алгоритм решения:**  
 Метод возвращает разницу числа x и его целочисленного представления
-<img width="250" height="51" alt="image" src="https://github.com/user-attachments/assets/9e1b864d-8a5a-46eb-b9f9-234f5d23e6e6" />
 
+<img width="250" height="51" alt="image" src="https://github.com/user-attachments/assets/9e1b864d-8a5a-46eb-b9f9-234f5d23e6e6" />
 
 ---
 
@@ -22,8 +22,8 @@
 
 **Алгоритм решения:**  
 Метод возвращает код символа, из которого вычитается '0'
-<img width="248" height="50" alt="image" src="https://github.com/user-attachments/assets/eb388228-b65d-4452-957a-a383e31c9bf2" />
 
+<img width="248" height="50" alt="image" src="https://github.com/user-attachments/assets/eb388228-b65d-4452-957a-a383e31c9bf2" />
 
 ---
 
@@ -32,8 +32,8 @@
 
 **Алгоритм решения:**  
 Метод проверяет, является ли модуль `x` строкой с длинной 2.  
-<img width="250" height="50" alt="image" src="https://github.com/user-attachments/assets/08e5c7ff-ef41-4f6c-9d7f-5b3958d2a12d" />
 
+<img width="250" height="50" alt="image" src="https://github.com/user-attachments/assets/08e5c7ff-ef41-4f6c-9d7f-5b3958d2a12d" />
 
 ---
 
@@ -42,8 +42,8 @@
 
 **Алгоритм решения:**  
 Метод проверяет, входит ли число `x` в промежуток между `a` и `b`
-<img width="470" height="50" alt="image" src="https://github.com/user-attachments/assets/58676533-901b-43bf-b159-92d6486fc60e" />
 
+<img width="470" height="50" alt="image" src="https://github.com/user-attachments/assets/58676533-901b-43bf-b159-92d6486fc60e" />
 
 ---
 
@@ -52,8 +52,8 @@
 
 **Алгоритм решения:**  
 Метод проверяет условие `a = b && a = c`.  
-<img width="469" height="50" alt="image" src="https://github.com/user-attachments/assets/24f2abd8-8334-410c-9c8b-13aa49b0c163" />
 
+<img width="469" height="50" alt="image" src="https://github.com/user-attachments/assets/24f2abd8-8334-410c-9c8b-13aa49b0c163" />
 
 ---
 
@@ -64,6 +64,7 @@
 
 **Алгоритм решения:**  
 Метод возвращает, если число меньше нуля, умноженные на -1.  
+
 <img width="250" height="50" alt="image" src="https://github.com/user-attachments/assets/1e9d1ab7-9ef6-4145-8ac2-effb8a94f2ad" />
 
 ---
@@ -73,9 +74,8 @@
 
 **Алгоритм решения:**  
 Метод проверяет делится число или на 3 или на 5. С использованием исключающего или.
+
 <img width="246" height="50" alt="image" src="https://github.com/user-attachments/assets/85db77b5-6bcc-4426-9897-352ef99058e4" />
-
-
 
 ---
 
@@ -84,8 +84,8 @@
 
 **Алгоритм решения:**  
 Метод проверяет, если второе число больше первого, значение второго присваивается первому. Тоже самое происходит со вторым и третьим. Возвращает первое число.
-<img width="479" height="51" alt="image" src="https://github.com/user-attachments/assets/54f34df6-803a-4c11-b836-87b0ff097489" />
 
+<img width="479" height="51" alt="image" src="https://github.com/user-attachments/assets/54f34df6-803a-4c11-b836-87b0ff097489" />
 
 ---
 
@@ -94,8 +94,8 @@
 
 **Алгоритм решения:**  
 Метод возвращает 20, если сумма в промежутке от 11 до 19, иначе возвращает их сумму.  
-<img width="467" height="52" alt="image" src="https://github.com/user-attachments/assets/4af26c10-856e-41eb-9ae8-02a5514f83b3" />
 
+<img width="467" height="52" alt="image" src="https://github.com/user-attachments/assets/4af26c10-856e-41eb-9ae8-02a5514f83b3" />
 
 ---
 
@@ -104,8 +104,8 @@
 
 **Алгоритм решения:**  
 Метод возвращает соответсвующее значение из `switch`.  
-<img width="250" height="53" alt="image" src="https://github.com/user-attachments/assets/df655f64-3f29-48f5-9309-6489b1e791e9" />
 
+<img width="250" height="53" alt="image" src="https://github.com/user-attachments/assets/df655f64-3f29-48f5-9309-6489b1e791e9" />
 
 ---
 
@@ -116,8 +116,8 @@
 
 **Алгоритм решения:**  
 Метод метод проходит циклом `for` и выводит `i`.  
-<img width="250" height="46" alt="image" src="https://github.com/user-attachments/assets/c4a19c99-71d8-4cb6-a0bc-1d2ce51bf170" />
 
+<img width="250" height="46" alt="image" src="https://github.com/user-attachments/assets/c4a19c99-71d8-4cb6-a0bc-1d2ce51bf170" />
 
 ---
 
@@ -126,8 +126,8 @@
 
 **Алгоритм решения:**  
 Метод метод проходит циклом `for` с шагом 2 и выводит `i`.   
-<img width="250" height="49" alt="image" src="https://github.com/user-attachments/assets/71f6440a-3db7-4aa4-b1a0-e6ec70e70ca3" />
 
+<img width="250" height="49" alt="image" src="https://github.com/user-attachments/assets/71f6440a-3db7-4aa4-b1a0-e6ec70e70ca3" />
 
 ---
 
@@ -136,8 +136,8 @@
 
 **Алгоритм решения:**  
 Метод проходит циклом `while`. На каждой итерации  `x` делится на 10.
-<img width="250" height="45" alt="image" src="https://github.com/user-attachments/assets/2a91c7e3-081b-4276-8c2b-87af2dcfdb50" />
 
+<img width="250" height="45" alt="image" src="https://github.com/user-attachments/assets/2a91c7e3-081b-4276-8c2b-87af2dcfdb50" />
 
 ---
 
@@ -146,8 +146,8 @@
 
 **Алгоритм решения:**
 Метод метод проходит циклом `for (i от 0 до x)` на каждой итерации выводит строку с использованием конструктора.
-<img width="250" height="62" alt="image" src="https://github.com/user-attachments/assets/2bb12e1e-ac1d-4690-bc77-6b483eb0b1a8" />
 
+<img width="250" height="62" alt="image" src="https://github.com/user-attachments/assets/2bb12e1e-ac1d-4690-bc77-6b483eb0b1a8" />
 
 ---
 
@@ -156,8 +156,8 @@
 
 **Алгоритм решения:**
 Метод метод проходит циклом `for (i от 0 до x)` на каждой итерации выводит строку с использованием конструктора.
-<img width="250" height="100" alt="image" src="https://github.com/user-attachments/assets/b58834fa-3435-4020-a0af-d8d5ae099bbe" />
 
+<img width="250" height="100" alt="image" src="https://github.com/user-attachments/assets/b58834fa-3435-4020-a0af-d8d5ae099bbe" />
 
 ---
 
@@ -168,8 +168,8 @@
 
 **Алгоритм решения:**
 Метод проходит циклом `foreach` по жлементам массива, до тех пор пока не найдет соответсвующий символ
-<img width="547" height="73" alt="image" src="https://github.com/user-attachments/assets/f5d3928d-0f98-45aa-b140-3438aab1c3b0" />
 
+<img width="547" height="73" alt="image" src="https://github.com/user-attachments/assets/f5d3928d-0f98-45aa-b140-3438aab1c3b0" />
 
 ---
 
@@ -178,8 +178,8 @@
 
 **Алгоритм решения:**  
 Метод проходит циклом `foreach` по элементам массива, сравнивая модуль элемента и максимального числа.
-<img width="580" height="56" alt="image" src="https://github.com/user-attachments/assets/4c87c764-1d95-4331-89bc-91c738dafdb5" />
 
+<img width="580" height="56" alt="image" src="https://github.com/user-attachments/assets/4c87c764-1d95-4331-89bc-91c738dafdb5" />
 
 ---
 
@@ -188,8 +188,8 @@
 
 **Алгоритм решения:**  
 Метод проходит циклом `for`, количество итераций равно сумме длин массивов. На каждой итерации проверяется в какой диапазон индексов входит символ.
-<img width="500" height="103" alt="image" src="https://github.com/user-attachments/assets/460ad856-a3db-4b26-9d73-907d118cdaa9" />
 
+<img width="500" height="103" alt="image" src="https://github.com/user-attachments/assets/460ad856-a3db-4b26-9d73-907d118cdaa9" />
 
 ---
 
@@ -198,8 +198,8 @@
 
 **Алгоритм решения:**  
 Метод проходит циклом `for` и путем вычитания i из длины массива расставляет элементы в новый массив.
-<img width="576" height="52" alt="image" src="https://github.com/user-attachments/assets/9e426451-1712-43a0-8804-d7f5a8136a5b" />
 
+<img width="576" height="52" alt="image" src="https://github.com/user-attachments/assets/9e426451-1712-43a0-8804-d7f5a8136a5b" />
 
 ---
 
@@ -208,8 +208,8 @@
 
 **Алгоритм решения:**  
 Метод проходит циклом `for` по массиву arr и записывает индекс каждого вхождения числа в новый массив. 
-<img width="578" height="76" alt="image" src="https://github.com/user-attachments/assets/44d05fed-4527-4661-a6a2-0360bc962e4b" />
 
+<img width="578" height="76" alt="image" src="https://github.com/user-attachments/assets/44d05fed-4527-4661-a6a2-0360bc962e4b" />
 
 ---
 
