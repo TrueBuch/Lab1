@@ -1,6 +1,6 @@
 public static class Util
 {
-    public static string? Input(this string? str)
+    public static string Input(this string str)
     {
         Console.Write(str);
         return Console.ReadLine();
