@@ -1,42 +1,41 @@
 ﻿public static class Program
 {
-
-
-
     public static void Main()
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         Solution solution = new();
 
-        Dictionary<int, Action> actions = new()
+        while (true)
         {
-            { 1, () => Print(solution.Fraction(Util.GetDouble())) },
-            { 2, () => Print(solution.CharToNum(Util.GetChar())) },
-            { 3, () => Print(solution.Is2Digits(Util.GetInt())) },
-            { 4, () => Print(Util.WithThreeNums(solution.IsInRange)) },
-            { 5, () => Print(Util.WithThreeNums(solution.IsEqual)) },
-            { 6, () => Print(solution.Abs(Util.GetInt())) },
-            { 7, () => Print(solution.Is35(Util.GetInt())) },
-            { 8, () => Print(Util.WithThreeNums(solution.Max3)) },
-            { 9, () => Print(Util.WithTwoNums(solution.Sum2)) },
-            { 10, () => Print(solution.Day(Util.GetInt())) },
-            { 11, () => Print(solution.ListNums(Util.GetInt())) },
-            { 12, () => Print(solution.Chet(Util.GetInt())) },
-            { 13, () => Print(solution.NumLen(Util.GetLong())) },
-            { 14, () => solution.Square(Util.GetInt()) },
-            { 15, () => solution.RightTriangle(Util.GetInt())},
-            { 16, () => Print(solution.FindFirst(Util.GetArr(), Util.GetInt()))},
-            { 17, () => Print(solution.MaxAbs(Util.GetArr()))},
-            { 18, () => Print(solution.Add(Util.GetArr(), Util.GetArr(), Util.GetInt()))},
-            { 19, () => Print(solution.ReverseBack(Util.GetArr()))},
-            { 20, () => Print(solution.FindAll(Util.GetArr(), Util.GetInt()))}
-        };
-
-        Choice(actions);
+            int number = Choice();
+            switch (number)
+            {
+                case 1: Print(solution.Fraction(Util.GetDouble())); break;
+                case 2: Print(solution.CharToNum(Util.GetChar())); break;
+                case 3: Print(solution.Is2Digits(Util.GetInt())); break;
+                case 4: Print(Util.WithThreeNums(solution.IsInRange)); break;
+                case 5: Print(Util.WithThreeNums(solution.IsEqual)); break;
+                case 6: Print(solution.Abs(Util.GetInt())); break;
+                case 7: Print(solution.Is35(Util.GetInt())); break;
+                case 8: Print(Util.WithThreeNums(solution.Max3)); break;
+                case 9: Print(Util.WithTwoNums(solution.Sum2)); break;
+                case 10: Print(solution.Day(Util.GetInt())); break;
+                case 11: Print(solution.ListNums(Util.GetInt())); break;
+                case 12: Print(solution.Chet(Util.GetInt())); break;
+                case 13: Print(solution.NumLen(Util.GetLong())); break;
+                case 14: solution.Square(Util.GetInt()); break;
+                case 15: solution.RightTriangle(Util.GetInt()); break;
+                case 16: Print(solution.FindFirst(Util.GetArr(), Util.GetInt())); break;
+                case 17: Print(solution.MaxAbs(Util.GetArr())); break;
+                case 18: Print(solution.Add(Util.GetArr(), Util.GetArr(), Util.GetInt())); break;
+                case 19: Print(solution.ReverseBack(Util.GetArr())); break;
+                case 20: Print(solution.FindAll(Util.GetArr(), Util.GetInt())); break;
+            };
+        }
     }
 
-    public static void Choice(Dictionary<int, Action> actions)
+    public static int Choice()
     {
         while (true)
         {
@@ -44,8 +43,7 @@
             {
                 if (result > 0 && result <= 20)
                 {
-                    actions[result].Invoke();
-                    continue;
+                    return result;
                 }
             }
             Util.InvalidInput();

@@ -6,7 +6,10 @@ public class Solution
         return x - (int)x;
     }
 
-    public int CharToNum(char x) => x - '0'; // 2
+    public int CharToNum(char x) // 2
+    {
+        return x - '0'; 
+    } 
 
     public bool Is2Digits(int x) // 3
     {
@@ -26,7 +29,10 @@ public class Solution
     //Задание 2.
     public int Abs(int x) // 6
     {
-        return x < 0 ? -x : x;
+        int result = x;
+        if (x < 0) result *= -1;
+
+        return result;
     }
 
     public bool Is35(int x)  // 7
@@ -50,16 +56,16 @@ public class Solution
 
     public string Day(int x) // 10
     {
-        return x switch
+        switch (x)
         {
-            1 => "Понедельник",
-            2 => "Вторник",
-            3 => "Среда",
-            4 => "Четверг",
-            5 => "Пятница",
-            6 => "Суббота",
-            7 => "Воскресенье",
-            _ => "это не день недели"
+            case 1: return "Понедельник";
+            case 2: return "Вторник";
+            case 3: return "Среда";
+            case 4: return "Четверг";
+            case 5: return "Пятница";
+            case 6: return "Суббота";
+            case 7: return "Воскресенье";
+            default: return "Это не день недели";
         };
     }
 
